@@ -146,7 +146,7 @@ The following items must be set for all services:
 - All services must be based on the `cccs/assemblyline-v4-service-base:latest` image
 - An environment variable must be set for the service path
 - Install any service requirements
-- Copy the service code into `/opt/al/al_service/`
+- Copy the service code into `/opt/al_service/`
 
 ```dockerfile
 FROM cccs/assemblyline-v4-service-base:latest
